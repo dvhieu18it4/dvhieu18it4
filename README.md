@@ -1,15 +1,19 @@
-#include<stdio.h>
-#include<conio.h>
-int	 main(){
+
+	// DVHIEU18IT4
+	#include<stdio.h>
+	#include<conio.h>
+	int main(){
 	int n;
 	int mang[100];
 	printf("nhap n : \n");
 	scanf("%d",&n);
+	
 	//nhap mang
 	for (int i=0;i<n;i++){
 		printf("mang[%d] =",i);
 		scanf("%d",&mang[i]);
 	}
+	
 	//	in ra cac mang
 	for (int i=0;i<n;i++){
 		printf("mang[%d]=%d ",i,mang[i]);
